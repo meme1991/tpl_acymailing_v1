@@ -14,3 +14,8 @@
   <li>Componenti > Acymailing > Newsletter > Newsletter</li>
   <li>NUOVO in alto a sinistra e poi MODELLI una volta dentro la creazione della newsletter</li>
 </ul>
+
+<div>
+  <p>Created by</p>
+  <img src="https://www.spedi.it/images/spedi-brand/SPEDI_logo_color_full.png" height="30" alt="">
+</div>
