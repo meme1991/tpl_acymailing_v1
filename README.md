@@ -16,6 +16,9 @@
 </ul>
 
 <div>
-  <p>Created by</p>
-  <img src="https://www.spedi.it/images/spedi-brand/SPEDI_logo_color_full.png" alt="Spedi srl">
+  <p style="font-style: italic;">Created by</p>
+  <a href="https://www.spedi.it" title="SPEDI srl">
+    <img src="https://www.spedi.it/images/spedi-brand/SPEDI_logo_color_full.png" alt="Spedi srl">
+  </a>
+  <p>viale Marconi 72/E, Gattinara - IT</p>
 </div>
