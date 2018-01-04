@@ -17,5 +17,5 @@
 
 <div>
   <p>Created by</p>
-  <img src="https://www.spedi.it/images/spedi-brand/SPEDI_logo_color_full.png" height="30" alt="">
+  <img src="https://www.spedi.it/images/spedi-brand/SPEDI_logo_color_full.png" alt="Spedi srl">
 </div>
