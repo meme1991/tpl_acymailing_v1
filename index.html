@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Notification theme</title>
+<title>Affinity theme</title>
 <style type="text/css">
 h1,h2,h3,h4,h5,h6,p,td,div{font-family: Helvetica, Arial,serif;color:#4f4f4f;}
 h1 { font-size: 25px; color: #1C2024; font-weight: 600; border-bottom: 1px #343a40 solid; padding-bottom: 15px; }
@@ -13,178 +13,284 @@ h5 { color: #007bff; }
 h6 { color: #4f4f4f; }
 p {color: #4f4f4f;font-size:16px;line-height:24px;}
 a {color: #007bff;}
-.divider{margin-top: 15px;margin-bottom: 15px;}
 .sepline{width:100%;height:1px;background-color:#eee;}
 a img{ border:0px; text-decoration:none;}
-.container img{max-width: 100%;height: auto;}
-@media (min-width: 10px){.container{width: 320px !important;}}
-@media (min-width: 600px){.container{width: 600px !important;}}
+.container{width: 600px;}
+@media (min-width: 10px){
+	.container{width: 320px !important;}
+	.bundle td{
+		width: 100% !important;
+		float: left !important;
+	}
+	.simple-text img{max-width: 280px !important;height: auto;}
+	.bundle img{width: 280px !important;height: auto;}
+	.fullimage img{width: 280px !important;height: auto;}
+	.footer-brand{width: auto !important;height: 50px !important;}
+}
+@media (min-width: 600px){
+	.bundle td{
+		width: auto !important;
+		float: none !important;
+	}
+	.bundle .separator-vertical{
+		width: 20px !important;
+	}
+	.container{width: 600px !important;}
+	.simple-text img{max-width: 560px !important;height: auto;}
+	.bundle img{width: 142px !important;height: auto;}
+	.fullimage img{width: 560px !important;height: auto;}
+	.footer-brand{width: auto !important;height: 50px !important;}
+}
+
 .acymailing_readmore {color: #8b8b8b;}
 .acymailing_online {color:#8b8b8b}
+
 /*
 .acymailing_content {color: #4f4f4f;}
 .acymailing_title {color: #007bff;font-weight: 600;}
  */
 </style>
 </head>
-<body bgcolor="#eee">
+<body bgcolor="#eee" style="background:#eee;">
+
 	<div style="background-color:#eee;" width="100%">
+	<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="container" width="600px">
+		<tbody>
+			<tr>
+				<td width="20px" style="width:20px;"></td>
+				<td>
+				<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+					<tbody class="acyeditor_sortable">
+						<tr class="acyeditor_delete  separator" title="Eliminabile">
+							<td height="30px" style="height:30px;"></td>
+						</tr>
+						<tr class="acyeditor_delete " title="Eliminabile">
+							<td align="center" class="acyeditor_picture" style="line-height: 0px;" title="Modificabile (Immagine)
+	Eliminabile"><img alt="" src="http://via.placeholder.com/150x50" /></td>
+						</tr>
+						<tr class="acyeditor_delete  separator" title="Eliminabile">
+							<td height="30px" style="height:30px;"></td>
+						</tr>
+						<tr class="focus">
+							<td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+							<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tbody>
+									<tr class="acyeditor_delete" title="Eliminabile">
+										<td colspan="3" height="30"></td>
+									</tr>
+									<tr class="acyeditor_delete" title="Eliminabile">
+										<td width="60"></td>
+										<td class="acyeditor_text " title="Modificabile(Testo)
+	Eliminabile">
+										<h3>Titolo focus</h3>
 
-		<table align="center" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" width="600px" class="container">
-			<tbody>
-				<tr>
-					<td width="20px">&nbsp;</td>
-					<td>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+										</td>
+										<td width="60"></td>
+									</tr>
+									<tr class="acyeditor_delete" title="Eliminabile">
+										<td colspan="3" height="30"></td>
+									</tr>
+								</tbody>
+							</table>
+							</td>
+						</tr>
+						<tr class="acyeditor_delete  separator" title="Eliminabile">
+							<td height="30px" style="height:30px;"></td>
+						</tr>
+						<tr class="reverse-focus">
+							<td style="background:#F6F6F6; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
+							<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tbody>
+									<tr class="acyeditor_delete" title="Eliminabile">
+										<td colspan="3" height="30"></td>
+									</tr>
+									<tr class="acyeditor_delete" title="Eliminabile">
+										<td width="60"></td>
+										<td class="acyeditor_text " title="Modificabile(Testo)
+	Eliminabile">
+										<h3>Titolo focus</h3>
 
-						<table align="center" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" width="100%">
-						  <tbody class="acyeditor_sortable">
-						    <tr class="acyeditor_delete">
-						      <td align="center" class="acyeditor_picture">
-						        <img src="http://via.placeholder.com/150x50" class="divider" alt="">
-						      </td>
-						    </tr>
-						    <tr class="acyeditor_delete">
-						      <td height="30px"></td>
-						    </tr>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
+										<div><!--[if mso]>
+																	  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:200px;" arcsize="10%" strokecolor="#007bff" fillcolor="#ffffff">
+																	    <w:anchorlock/>
+																	    <center style="color:#007bff;font-family:sans-serif;font-size:13px;font-weight:bold;">Show me the button!</center>
+																	  </v:roundrect>
+																		<![endif]--><a href="http://" style="background-color:#ffffff;border:1px solid #007bff;border-radius:4px;color:#007bff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:38px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;mso-hide:all;">Show me the button! </a></div>
+										</td>
+										<td width="60"></td>
+									</tr>
+									<tr class="acyeditor_delete" title="Eliminabile">
+										<td colspan="3" height="30"></td>
+									</tr>
+								</tbody>
+							</table>
+							</td>
+						</tr>
+						<tr class="acyeditor_delete  separator" title="Eliminabile">
+							<td height="30px" style="height:30px;"></td>
+						</tr>
+						<tr class="acyeditor_delete  fullimage" title="Eliminabile">
+							<td class="acyeditor_picture" style="line-height: 0px;" title="Modificabile (Immagine)
+	Eliminabile"><img alt="" src="http://via.placeholder.com/560x350" width="100%" /></td>
+						</tr>
+						<tr class="acyeditor_delete  separator" title="Eliminabile">
+							<td height="30px" style="height:30px;"></td>
+						</tr>
+						<tr class="bundle">
+							<td>
+							<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tbody>
+									<tr class="acyeditor_delete" title="Eliminabile">
+										<td align="center" class="image acyeditor_picture" style="line-height: 0px;" title="Modificabile (Immagine)
+	Eliminabile" valign="middle" width="142px"><img alt="" src="http://via.placeholder.com/142x142" /></td>
+										<td class="separator-vertical" style="width:20px;" width="20px"></td>
+										<td class="acyeditor_text text" title="Modificabile(Testo)
+	Eliminabile">
+										<h3>Titolo bundle</h3>
 
-								<tr>
-									<td style="border: 1px solid #EEEEEE; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px">
-										<table align="center" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" width="100%">
-											<tbody>
-												<tr>
-													<td height="30"></td>
-												</tr>
-												<tr>
-													<td width="60">&nbsp;</td>
-													<td>
-														<h3>Titolo focus</h3>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-													</td>
-													<td width="60">&nbsp;</td>
-												</tr>
-												<tr>
-													<td height="30"></td>
-												</tr>
-											</tbody>
-										</table>
-									</td>
-								</tr>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-						    <tr class="acyeditor_delete mainContainer">
-						      <td class="acyeditor_text">
-						        <h3>Ehi Luca,</h3>
-						        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						      </td>
-						    </tr>
+										<p><a href="http://test.spedi.it/jtest/">Leggi di pi&ugrave;</a></p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							</td>
+						</tr>
+						<tr class="acyeditor_delete  separator" title="Eliminabile">
+							<td height="30px" style="height:30px;"></td>
+						</tr>
+						<tr class="bundle">
+							<td>
+							<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tbody>
+									<tr class="acyeditor_delete" title="Eliminabile">
+										<td class="acyeditor_text text" title="Modificabile(Testo)
+	Eliminabile">
+										<h3>Titolo bundle</h3>
 
-						    <tr class="acyeditor_delete">
-						      <td align="center" class="acyeditor_text">
-						        <div class="divider">
-						          <!--[if mso]>
-						          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:200px;" arcsize="10%" stroke="f" fillcolor="#007bff">
-						            <w:anchorlock/>
-						            <center>
-						          <![endif]-->
-						          <a href="http://" style="background-color:#007bff;border-radius:4px;color:#ffffff;display:inline-block;font-size:13px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;">
-						            Show me the button!
-						          </a>
-						          <!--[if mso]>
-						              </center>
-						            </v:roundrect>
-						          <![endif]-->
-						        </div>
-						      </td>
-						    </tr>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-						    <tr class="acyeditor_delete">
-						      <td style="height: 15px;"></td>
-						    </tr>
-						    <tr class="acyeditor_delete">
-						      <td style="border-bottom:1px solid #eee;"></td>
-						    </tr>
-						    <tr class="acyeditor_delete">
-						      <td style="height: 15px;"></td>
-						    </tr>
+										<p><a href="http://test.spedi.it/jtest/">Leggi di pi&ugrave;</a></p>
+										</td>
+										<td class="separator-vertical" style="width:20px;" width="20px"></td>
+										<td align="center" class="acyeditor_picture image" style="line-height: 0px;" title="Modificabile (Immagine)
+	Eliminabile" valign="middle" width="142"><img alt="" src="http://via.placeholder.com/142x142" /></td>
+									</tr>
+								</tbody>
+							</table>
+							</td>
+						</tr>
+						<tr class="acyeditor_delete  separator" title="Eliminabile">
+							<td height="30px" style="height:30px;"></td>
+						</tr>
+						<tr class="acyeditor_delete simple-text" title="Eliminabile">
+							<td class="acyeditor_text " title="Modificabile(Testo)
+	Eliminabile">
+							<h3>Ehi Luca,</h3>
 
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-						    <tr class="acyeditor_delete">
-						      <td align="center" class="acyeditor_picture">
-						        <img src="http://via.placeholder.com/150x50" class="divider" alt="">
-						      </td>
-						    </tr>
-
-						    <tr class="acyeditor_delete">
-						      <td class="acyeditor_text" align="center">
-						        <p style="color:#8b8b8b;font-size:14px;line-height:16px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						      </td>
-						    </tr>
-
-						    <tr class="acyeditor_delete">
-						      <td align="center">
-						        <table>
-						          <tbody>
-						            <tr>
-						              <td height="30px"></td>
-						            </tr>
-						            <tr class="acyeditor_delete">
-						              <td class="acyeditor_picture">
-						                <img src="images/facebook.png" alt="">
-						              </td>
-						              <td class="acyeditor_picture">
-						                <img src="images/twitter.png" alt="">
-						              </td>
-						              <td class="acyeditor_picture">
-						                <img src="images/instagram.png" alt="">
-						              </td>
-						              <td class="acyeditor_picture">
-						                <img src="images/pinterest.png" alt="">
-						              </td>
-						              <td class="acyeditor_picture">
-						                <img src="images/github.png" alt="">
-						              </td>
-						              <td class="acyeditor_picture">
-						                <img src="images/youtube.png" alt="">
-						              </td>
-						            </tr>
-						          </tbody>
-						        </table>
-						      </td>
-						    </tr>
-
-						    <tr class="acyeditor_delete">
-						      <td class="acyeditor_text" align="center">
-						        <p style="color:#8b8b8b;font-size:10px;line-height:12px;">
-						          {unsubscribe}Disiscriviti{/unsubscribe}<br>
-						          {readonline}Vedi sul browser{/readonline}
-						        </p>
-						      </td>
-						    </tr>
-
-						    <tr class="acyeditor_delete">
-						      <td height="30px"></td>
-						    </tr>
-						    <tr class="acyeditor_delete">
-						      <td class="acyeditor_text">
-						        <p style="color:#8b8b8b;font-size:10px;line-height:12px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						      </td>
-						    </tr>
-						  </tbody>
-						</table>
-
-					</td>
-					<td width="20px">&nbsp;</td>
-				</tr>
-			</tbody>
-		</table>
-
-
-
-
-
-
-
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</td>
+						</tr>
+						<tr class="acyeditor_delete  separator" title="Eliminabile">
+							<td height="30px" style="height:30px;"></td>
+						</tr>
+						<tr class="acyeditor_delete  calltoaction" title="Eliminabile">
+							<td align="center" class="acyeditor_text " title="Modificabile(Testo)
+	Eliminabile">
+							<div><!--[if mso]>
+									          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:200px;" arcsize="10%" stroke="f" fillcolor="#007bff">
+									            <w:anchorlock/>
+									            <center>
+									          <![endif]--><a href="http://" style="background-color:#007bff;border-radius:4px;color:#ffffff;display:inline-block;font-size:13px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;">Show me the button! </a> <!--[if mso]>
+									              </center>
+									            </v:roundrect>
+									          <![endif]--></div>
+							</td>
+						</tr>
+						<tr class="acyeditor_delete  separator" title="Eliminabile">
+							<td height="30px" style="height:30px;"></td>
+						</tr>
+						<tr class="acyeditor_delete " title="Eliminabile">
+							<td style="border-bottom:1px solid #eee;"></td>
+						</tr>
+						<tr class="acyeditor_delete  separator" title="Eliminabile">
+							<td height="30px" style="height:30px;"></td>
+						</tr>
+						<tr class="acyeditor_delete " title="Eliminabile">
+							<td align="center" class="acyeditor_picture" style="line-height: 0px;" title="Modificabile (Immagine)
+	Eliminabile"><img alt="" src="http://via.placeholder.com/150x50" class="footer-brand" /></td>
+						</tr>
+						<tr class="acyeditor_delete  separator" title="Eliminabile">
+							<td height="30px" style="height:30px;"></td>
+						</tr>
+						<tr class="acyeditor_delete " title="Eliminabile">
+							<td align="center" class="acyeditor_text " title="Modificabile(Testo)
+	Eliminabile">
+							<p style="color:#8b8b8b;font-size:14px;line-height:16px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</td>
+						</tr>
+						<tr class="acyeditor_delete  separator" title="Eliminabile">
+							<td height="30px" style="height:30px;"></td>
+						</tr>
+						<tr>
+							<td align="center">
+							<table>
+								<tbody class="acyeditor_sortable">
+									<tr class="acyeditor_delete " title="Eliminabile">
+										<td class="acyeditor_picture" style="line-height: 0px;" title="Modificabile (Immagine)
+	Eliminabile"><img alt="" src="http://test.spedi.it/jtest/media/com_acymailing/templates/affinity_theme_2/images/facebook.png" /></td>
+										<td class="acyeditor_picture" style="line-height: 0px;" title="Modificabile (Immagine)
+	Eliminabile"><img alt="" src="http://test.spedi.it/jtest/media/com_acymailing/templates/affinity_theme_2/images/twitter.png" /></td>
+										<td class="acyeditor_picture" style="line-height: 0px;" title="Modificabile (Immagine)
+	Eliminabile"><img alt="" src="http://test.spedi.it/jtest/media/com_acymailing/templates/affinity_theme_2/images/instagram.png" /></td>
+										<td class="acyeditor_picture" style="line-height: 0px;" title="Modificabile (Immagine)
+	Eliminabile"><img alt="" src="http://test.spedi.it/jtest/media/com_acymailing/templates/affinity_theme_2/images/pinterest.png" /></td>
+										<td class="acyeditor_picture" style="line-height: 0px;" title="Modificabile (Immagine)
+	Eliminabile"><img alt="" src="http://test.spedi.it/jtest/media/com_acymailing/templates/affinity_theme_2/images/github.png" /></td>
+										<td class="acyeditor_picture" style="line-height: 0px;" title="Modificabile (Immagine)
+	Eliminabile"><img alt="" src="http://test.spedi.it/jtest/media/com_acymailing/templates/affinity_theme_2/images/youtube.png" /></td>
+									</tr>
+								</tbody>
+							</table>
+							</td>
+						</tr>
+						<tr class="acyeditor_delete  separator" title="Eliminabile">
+							<td height="30px" style="height:30px;"></td>
+						</tr>
+						<tr class="acyeditor_delete " title="Eliminabile">
+							<td align="center" class="acyeditor_text " title="Modificabile(Testo)
+	Eliminabile">
+							<p style="color:#8b8b8b;font-size:10px;line-height:12px;">{unsubscribe}Disiscriviti{/unsubscribe}<br />
+							{readonline}Vedi sul browser{/readonline}</p>
+							</td>
+						</tr>
+						<tr class="acyeditor_delete  separator" title="Eliminabile">
+							<td height="30px" style="height:30px;"></td>
+						</tr>
+						<tr class="acyeditor_delete " title="Eliminabile">
+							<td class="acyeditor_text " title="Modificabile(Testo)
+	Eliminabile">
+							<p style="color:#8b8b8b;font-size:10px;line-height:12px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</td>
+						</tr>
+						<tr class="acyeditor_delete  separator" title="Eliminabile">
+							<td height="30px" style="height:30px;"></td>
+						</tr>
+					</tbody>
+				</table>
+				</td>
+				<td width="20px" style="width:20px;"></td>
+			</tr>
+		</tbody>
+	</table>
 	</div>
+
+
 </body>
 </html>
